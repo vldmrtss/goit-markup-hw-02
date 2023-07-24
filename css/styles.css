@@ -1,0 +1,141 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+  --cornflowers: #e7e9fc;
+  --white: #fff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+}
+
+/* --Header-- */
+
+.logo-web {
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  line-height: 1.1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--iris);
+}
+.header-logo {
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  line-height: 1.1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--navyblue);
+}
+.menu > li > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--navyblue);
+}
+.contacts > li > a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--slate);
+}
+.contacts > li > a:hover,
+.contacts > li > a:focus {
+  color: var(--ocean);
+}
+
+/* --Main-- */
+
+.section-index {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  background-color: var(--navyblue);
+  color: var(--white);
+}
+.button-index {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--iris);
+  cursor: pointer;
+}
+.section-one-text > li > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section-one-text > li > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.section-two-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.section-three-text > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.section-three-text > ul > li > figure > figcaption > h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section-three-text > ul > li > figure > figcaption > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px;
+  background-color: var(--cornflowers);
+  color: var(--ocean);
+  cursor: pointer;
+  border: 1px;
+  border-color: var(--cornflowers);
+}
+.button:hover,
+.button:focus {
+  border: 1px;
+  color: var(--cornflowers);
+  background-color: var(--ocean);
+}
+
+/* --Footer-- */
+.footer {
+  background-color: var(--navyblue);
+}
+.footer > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud);
+}
+.footer-logo {
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  line-height: 1.1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--cloud);
+}
+.image {
+  border: 1px;
+}
