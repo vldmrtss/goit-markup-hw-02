@@ -39,9 +39,12 @@ body {
   text-decoration: none;
   color: var(--navyblue);
 }
+.menu > li > a:hover,
+.menu > li > a:focus {
+  color: var(--ocean);
+}
 .contacts > li > a {
-  font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
   color: var(--slate);
@@ -59,6 +62,7 @@ body {
   line-height: 1.07;
   background-color: var(--navyblue);
   color: var(--white);
+  text-align: center;
 }
 .button-index {
   font-family: "Roboto", sans-serif;
@@ -68,6 +72,12 @@ body {
   color: var(--white);
   background-color: var(--iris);
   cursor: pointer;
+  border-radius: 4px;
+}
+.button-index:hover,
+.button-index:focus {
+  background-color: var(--ocean);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .section-one-text > li > h2 {
   font-weight: 500;
@@ -75,7 +85,6 @@ body {
   line-height: 1.2;
 }
 .section-one-text > li > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -95,7 +104,6 @@ body {
   line-height: 1.2;
 }
 .section-three-text > ul > li > figure > figcaption > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -109,12 +117,15 @@ body {
   cursor: pointer;
   border: 1px;
   border-color: var(--cornflowers);
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
   border: 1px;
-  color: var(--cornflowers);
+  color: var(--white);
   background-color: var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* --Footer-- */
@@ -122,7 +133,6 @@ body {
   background-color: var(--navyblue);
 }
 .footer > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud);
