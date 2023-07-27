@@ -55,14 +55,17 @@ body {
 }
 
 /* --Main-- */
-
 .section-index {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
   background-color: var(--navyblue);
-  color: var(--white);
   text-align: center;
+}
+.section-index > h1 {
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
 .button-index {
   font-family: "Roboto", sans-serif;
@@ -108,6 +111,7 @@ body {
   line-height: 1.5;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
