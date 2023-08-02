@@ -84,16 +84,11 @@ body {
 
 /* --Main-- */
 .section-index {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
   width: 1440px;
   height: 600px;
   background-color: var(--navyblue);
   text-align: center;
   align-content: center;
-  align-items: center;
-  padding: 188px 0;
 }
 .section-index > h1 {
   color: var(--white);
@@ -103,8 +98,6 @@ body {
   letter-spacing: 1.12px;
   text-align: center;
   margin: 0;
-  max-width: 496px;
-  align-items: center;
 }
 .button-index {
   display: inline-flex;
@@ -167,9 +160,6 @@ body {
   margin: 0;
 }
 .section-three-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--navyblue);
   text-align: center;
   font-family: Roboto;
@@ -203,7 +193,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin: 0;
 }
 .section-three-text {
   background-color: var(--cloud);
@@ -241,69 +230,16 @@ body {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/*--Portfolio--*/
-.portfolio-buttons > ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.portfolio-buttons > ul > li > button {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-}
-.portfolio-wrap > ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-.item {
-  flex-basis: calc((100% - 48px) / 3);
-}
-.portfolio-wrap > ul > li > figure {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex-shrink: 0;
-  border: 1px solid var(--cornflowers);
-  background: var(--white);
-}
-.portfolio-wrap > ul > li > figure > figcaption {
-  display: flex;
-  padding: 0px 16px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
-}
-.section-portfolio > ul > li > figure > figcaption > h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  margin: 0px;
-}
-.section-portfolio > ul > li > figure > figcaption > p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0px;
-}
-
 /* --Footer-- */
 .footer-wrapper {
-  padding-left: 156px;
+  margin-left: 156px;
 }
 .footer-wrapper > a {
   display: inline-flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
-  padding-top: 100px;
+  margin-top: 100px;
 }
 .footer {
   background-color: var(--navyblue);
